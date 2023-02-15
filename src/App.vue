@@ -12,7 +12,7 @@
   <!-- <h4>{{ $store.state.age }}</h4>
   <button @click="$store.commit('changeage',10)">버튼</button> -->
   <Container @write="write = $event" :images="images" :게시물="게시물" :step= "step"/>
-  <button v-if="step == 0" @click="more">더보기</button>
+  <button v-if="step == 0" @click="more">더보기+</button>
   
   <div class="footer">
     <ul class="footer-button-plus">
